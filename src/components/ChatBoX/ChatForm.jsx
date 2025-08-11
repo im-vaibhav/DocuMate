@@ -1,5 +1,4 @@
 /* eslint-disable react/prop-types */
-
 import { useState } from "react";
 import { FaArrowUp } from "react-icons/fa";
 import axios from "axios";
