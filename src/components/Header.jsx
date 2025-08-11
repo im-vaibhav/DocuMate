@@ -1,8 +1,12 @@
 // import React from 'react'
+import { useState } from 'react';
 import { assets } from '../assets/assets'
+import ChatButton from './ChatBoX/ChatButton'
 
 const Header = () => {
-    return (
+  
+  return (
+    <div >
       <div className=" flex flex-col md:flex-row flex-wrap rounded-lg px-6 md:px-10 lg:px-15 lg:my-10 gap-y-10 ">
         {/* --------- Header Left --------- */}
         <div className="md:w-1/2 flex flex-col items-start justify-center gap-4 py-10 m-auto md:py-[3vw] md:mb-[-30px]">
@@ -11,7 +15,7 @@ const Header = () => {
             <br /> With Trusted Doctors
           </p>
           <div className="text-[18px] mt-3 mb-5 text-gray-700 leading-[1.7]">
-            <p className='w-[90%]'>
+            <p className="w-[90%]">
               The smarter, all-year doctor booking platform that puts your
               health first. Designed around your needs, trusted by thousands,
               and built for hassle-free care
@@ -38,7 +42,9 @@ const Header = () => {
           />
         </div>
       </div>
-    );
-}
+      <ChatButton />
+    </div>
+  );
+};
 
 export default Header
