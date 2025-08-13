@@ -22,6 +22,7 @@ import Gynecologist from "./Gynecologist.svg";
 import Neurologist from "./Neurologist.svg";
 import Pediatricians from "./Pediatricians.svg";
 import Documate from "./Documate.png";
+import documate_logo from "./Documatelogo.png";
 
 export const assets = {
   appointment_img,
@@ -41,6 +42,7 @@ export const assets = {
   stripe_logo,
   razorpay_logo,
   Documate,
+  documate_logo
 };
 
 export const specialityData = [

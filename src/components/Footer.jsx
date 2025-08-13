@@ -15,7 +15,7 @@ const Footer = () => {
             professionals includes certified practitioners, specialists, and
             surgeons with years of expertise in providing top-notch healthcare.
             Whether you need a general consultation, a specialist advice, or
-            ongoing care, Prescripto ensures you have access to the best medical
+            ongoing care, Documate ensures you have access to the best medical
             services from the comfort of your home.
           </p>
         </div>
